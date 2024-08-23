@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Inter;
+}
+
+*, *::before, *::after{
+   box-sizing: border-box;
+}
+
+:root{
+    --Green: #c5f82a;
+    --White: #ffffff;
+    --Grey700: #333333;
+    --Grey800: #1f1f1f;
+    --Grey900: #141414;
+    --fs: 13px;
+    --fw400: 400;
+    --fw600: 600;
+    --fw700: 700;
+
+}
+
+body{
+   background-color: var(--Grey900);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100dvh;
+}
+.wrapper{
+    background-color: var(--Grey800);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    gap: 1rem;
+    text-align: center;
+    color: var(--White);
+}
+.image{
+    width: 5rem;
+    aspect-ratio: 1;
+    background-image: url('./assets/images/avatar-jessica.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.personal-info h2{
+    font-weight: var(--fw700);
+}
+.personal-info h5{
+    font-weight: var(--fw600);
+    color: var(--Green);
+}
+.wrapper > h5{
+    padding: .5rem 0;
+    font-size: var(--fs);
+    font-weight: var(--fw400);
+}
+
+.wrapper > a{
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 13px;
+    text-decoration: none;
+    background-color: var(--Grey700);
+    color: var(--White);
+    transition: .3s;
+    font-weight: var(--fw600);
+}
+.wrapper > a:hover{
+    background-color: var(--Green);
+    color: var(--Grey900);
+}
