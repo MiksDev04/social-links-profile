@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Social Link Profile](https://miksdev04.github.io/social-links-profile/)
 
 ## My process
 
@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned to create a cool socail link profile
+I learned to create a cool social link profile
 
 
 ### Continued development
